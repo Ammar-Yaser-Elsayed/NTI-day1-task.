@@ -1,0 +1,42 @@
+html {
+    background-color: lawngreen;
+}
+
+#nav {
+    text-align: center;
+}
+
+#name{
+    width: 50%;
+    text-align: center;
+    margin: 0% 25% 0% 25%;;
+
+}
+
+#price{
+    width: 50%;
+    text-align: center;
+    margin: 0% 25% 0% 25%;;
+
+}
+
+#description{
+    width: 50%;
+    text-align: center;
+    margin: 0% 25% 0% 25%;;
+}
+
+p {
+    color: white;
+    text-align: center;
+
+}
+
+#bttn{
+    text-align: center;
+    width: 20%;    
+    margin: 0% 40% 0% 40%;
+    background-color: gold;
+    box-shadow: inset;
+  
+}
