@@ -1,0 +1,22 @@
+html {
+    background-color: lightgreen;
+}
+
+body{
+    align-items: center;
+}
+
+#result{ 
+    background: rgba(174, 61, 61, 0.1);
+
+     border-radius: 30px;
+     margin : 500px 500px;
+     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+     border: 1px solid rgba(255, 255, 255, 0.18);
+     text-align: center;
+     display: flex;
+     padding: 30px 20px;
+ 
+}
+
+
