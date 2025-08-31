@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Shopping Cart</h1>
+
+    <div class="input-section">
+      <input type="number" id="productId" placeholder="Product ID">
+      <input type="number" id="quantity" placeholder="Quantity">
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="coupon-section">
+      <input type="text" id="coupon" placeholder="Coupon Code">
+      <button onclick="applyCoupon()">Apply Coupon</button>
+    </div>
+
+    <table id="cartTable">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Unit Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="summary" id="summary"></div>
+  </div>
+
+  <script src="main.js">
+    
+  </script>
+</body>
+</html>
