@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="track.css">
+
+</head>
+<body>
+  <div class="card">
+    <h2>🏋️ Fitness Tracker</h2>
+
+    <input type="number" id="step" placeholder="Steps walked"><br>
+    <input type="number" id="distance" placeholder="Distance (km)"><br>
+    <input type="number" id="calories" placeholder="Calories burned"><br>
+
+    <div>
+      <button id="save">Save</button>
+      <button id="reset">Reset Data</button>
+    </div>
+
+    <div class="totals">
+      <p>Total Steps: <span id="StepsDone">0</span></p>
+      <p>Total Distance: <span id="DistanceWalked">0</span> km</p>
+      <p>Total Calories: <span id="CaloriesBurned">0</span></p>
+    </div>
+
+    <p id="Done"></p>
+  </div>
+
+  <script src = "track.js">
+  </script>
+</body>
+</html>
